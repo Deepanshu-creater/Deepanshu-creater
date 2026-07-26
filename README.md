@@ -3,21 +3,47 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C3E92,100:8E2DE2&height=200&section=header" width="100%"/>
 
-<h1 style="font-size: 3.5rem; margin: 0.5rem 0 0.2rem 0; background: linear-gradient(135deg, #8E2DE2, #4A90D9); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+<!-- Colorful Name with animated rainbow gradient -->
+<h1 style="font-size: 3.8rem; margin: 0.5rem 0 0.2rem 0; background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb, #a29bfe, #fd79a8, #ff6b6b); background-size: 300%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: gradientMove 4s ease infinite; font-weight: 800; letter-spacing: 2px;">
   𝗗𝗘𝗘𝗣𝗔𝗡𝗦𝗛𝗨 𝗦𝗛𝗔𝗥𝗠𝗔
 </h1>
 
-<h3 style="margin: 0 0 1.5rem 0; color: #B8C6D4; font-weight: 300; letter-spacing: 2px;">
+<style>
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+</style>
+
+<h3 style="margin: 0 0 1rem 0; color: #B8C6D4; font-weight: 300; letter-spacing: 2px;">
   𝗔𝗜-𝗗𝗿𝗶𝘃𝗲𝗻 𝗙𝘂𝗹𝗹-𝗦𝘁𝗮𝗰𝗸 &amp; 𝗖𝗹𝗼𝘂𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿
 </h3>
 
-<!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&size=24&duration=2800&pause=1000&color=8E2DE2&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=220&lines=Building+Full-Stack+Applications;Integrating+LLMs+into+Real+Dev+Tools;Cloud+%26+Docker+Deployment+Enthusiast;Final-Year+CSE+Student+%7C+GATE+Qualified;Lifelong+Learner" alt="Typing SVG" />
+<!-- Floating Tech Icons (clean visual clutter) -->
+<p style="margin: 0.5rem 0 0.8rem 0; font-size: 2.5rem; letter-spacing: 12px;">
+  <span style="display: inline-block; animation: float 3s ease-in-out infinite;">⚛️</span>
+  <span style="display: inline-block; animation: float 3s ease-in-out infinite 0.4s;">☁️</span>
+  <span style="display: inline-block; animation: float 3s ease-in-out infinite 0.8s;">🐳</span>
+  <span style="display: inline-block; animation: float 3s ease-in-out infinite 1.2s;">🤖</span>
+  <span style="display: inline-block; animation: float 3s ease-in-out infinite 1.6s;">⚡</span>
+</p>
+
+<style>
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+  }
+</style>
+
+<!-- Typing animation (moved slightly down for balance) -->
+<img src="https://readme-typing-svg.demolab.com?font=Righteous&weight=500&size=24&duration=2800&pause=1000&color=8E2DE2&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=180&lines=Building+Full-Stack+Applications;Integrating+LLMs+into+Real+Dev+Tools;Cloud+%26+Docker+Deployment+Enthusiast;Final-Year+CSE+Student+%7C+GATE+Qualified;Lifelong+Learner" alt="Typing SVG" />
 
 </div>
 
 <!-- ================= INTRO STRIP ================= -->
-<p align="center" style="margin: 1.5rem 0 2rem 0;">
+<p align="center" style="margin: 1rem 0 1.5rem 0;">
   <img src="https://img.shields.io/badge/Status-Actively%20Building-8E2DE2?style=for-the-badge&labelColor=0F2027"/>
   <img src="https://img.shields.io/badge/Open%20to-Internships%20%26%20SDE%20Roles-00C9A7?style=for-the-badge&labelColor=0F2027"/>
   <img src="https://img.shields.io/badge/Based%20in-Delhi%2C%20India-2C3E92?style=for-the-badge&labelColor=0F2027"/>
@@ -34,9 +60,10 @@
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; max-width: 1100px; margin: 0 auto; padding: 0 1rem;">
 
-  <div style="flex: 1 1 300px; background: #1A1B2F; border-radius: 16px; padding: 1.8rem 2rem; border: 1px solid #2C3E92; box-shadow: 0 4px 20px rgba(142, 45, 226, 0.15);">
-    <h3 style="color: #00C9A7; margin: 0 0 0.8rem 0; font-size: 1.4rem;">🎓 𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻</h3>
-    <pre style="background: #0F2027; border-radius: 8px; padding: 1.2rem; color: #B8C6D4; font-family: 'JetBrains Mono', monospace; line-height: 1.8; border: 1px solid #2C3E92;">
+  <!-- Vibrant bg cards -->
+  <div style="flex: 1 1 300px; background: linear-gradient(135deg, #6a11cb, #2575fc); border-radius: 16px; padding: 1.8rem 2rem; box-shadow: 0 8px 32px rgba(106, 17, 203, 0.4); color: #fff;">
+    <h3 style="color: #fff; margin: 0 0 0.8rem 0; font-size: 1.4rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">🎓 𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻</h3>
+    <pre style="background: rgba(255,255,255,0.12); border-radius: 8px; padding: 1.2rem; color: #f0f0ff; font-family: 'JetBrains Mono', monospace; line-height: 1.8; border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(4px);">
 B.Tech in Computer Science
 GGSIP University, Delhi
 CGPA: 9.36 / 10
@@ -44,9 +71,9 @@ GATE CSE 2026 Qualified
     </pre>
   </div>
 
-  <div style="flex: 1 1 300px; background: #1A1B2F; border-radius: 16px; padding: 1.8rem 2rem; border: 1px solid #2C3E92; box-shadow: 0 4px 20px rgba(142, 45, 226, 0.15);">
-    <h3 style="color: #00C9A7; margin: 0 0 0.8rem 0; font-size: 1.4rem;">🚀 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗙𝗼𝗰𝘂𝘀</h3>
-    <pre style="background: #0F2027; border-radius: 8px; padding: 1.2rem; color: #B8C6D4; font-family: 'JetBrains Mono', monospace; line-height: 1.8; border: 1px solid #2C3E92;">
+  <div style="flex: 1 1 300px; background: linear-gradient(135deg, #f093fb, #f5576c); border-radius: 16px; padding: 1.8rem 2rem; box-shadow: 0 8px 32px rgba(245, 87, 108, 0.4); color: #fff;">
+    <h3 style="color: #fff; margin: 0 0 0.8rem 0; font-size: 1.4rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">🚀 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗙𝗼𝗰𝘂𝘀</h3>
+    <pre style="background: rgba(255,255,255,0.12); border-radius: 8px; padding: 1.2rem; color: #f0f0ff; font-family: 'JetBrains Mono', monospace; line-height: 1.8; border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(4px);">
 Building CodeFlux — a real-time
 AI-powered collaborative IDE
 
@@ -247,6 +274,6 @@ zero paid infra, real users
 SETUP NOTES:
 - CodeFlux Live Demo badge will need a link once deployment is complete
 - Replace Deepanshu-creater in the snake image URL once the workflow runs
-- All sections use clean flex layouts instead of tables for better spacing
-- Dark theme with purple (#8E2DE2) and teal (#00C9A7) as dominant accent colors
+- The colorful name uses an animated gradient; hero now has floating icons
+- About Me cards have vibrant backgrounds (purple-blue and pink-red gradients)
 -->
