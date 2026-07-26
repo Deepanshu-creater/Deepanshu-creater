@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Deepanshu Sharma</h1>
+[<h1 align="center">Hi 👋, I'm Deepanshu Sharma</h1>
 <h3 align="center">AI-Driven Full-Stack & Cloud Developer | Final-Year B.Tech CSE Student</h3>
 
 <p align="center">
@@ -77,3 +77,4 @@ Real-time messaging app with auto language detection and translation, letting us
   <a href="mailto:deepanshu190920005@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <!-- Add your LinkedIn, portfolio, or Twitter/X badges here -->
 </p>
+](https://github.com/Deepanshu-creater/U-Me-Chat-App)
