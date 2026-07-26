@@ -1,7 +1,11 @@
 <!-- ================= HERO BANNER ================= -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C3E92,100:8E2DE2&height=200&section=header" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C3E92,100:8E2DE2&height=200&section=header">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:E0E7FF,50:C7D2FE,100:A5B4FC&height=200&section=header">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C3E92,100:8E2DE2&height=200&section=header" width="100%"/>
+</picture>
 
 <!-- COLORFUL NAME — pure text, no external image, colored via GitHub's built-in math renderer -->
 
@@ -47,6 +51,7 @@ Open to collaborating on AI x Dev-tools
 Fun fact: I ship solo — zero team,
 zero paid infra, real users
 </td> </tr> </table> <hr/> 
+
 
 <!-- ================= CONNECT ================= -->
 <h2 align="center">𝗖𝗼𝗻𝗻𝗲𝗰𝘁 𝗪𝗶𝘁𝗵 𝗠𝗲</h2>
@@ -171,19 +176,43 @@ Real-time messaging with auto language detection + translation. Serving 20+ acti
 <h2 align="center">𝗚𝗶𝘁𝗛𝘂𝗯 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀</h2>
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Deepanshu-creater&show_icons=true&theme=radical&hide_border=true&bg_color=0F2027&title_color=8E2DE2&icon_color=00C9A7&text_color=ffffff" width="47%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Deepanshu-creater&theme=radical&hide_border=true&background=0F2027&stroke=8E2DE2&ring=00C9A7&fire=8E2DE2" width="47%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Deepanshu-creater&show_icons=true&theme=radical&hide_border=true&bg_color=0F2027&title_color=8E2DE2&icon_color=00C9A7&text_color=ffffff">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Deepanshu-creater&show_icons=true&theme=default&hide_border=true&title_color=6A11CB&icon_color=0F766E">
+  <img src="https://github-readme-stats.vercel.app/api?username=Deepanshu-creater&show_icons=true&theme=radical&hide_border=true&bg_color=0F2027&title_color=8E2DE2&icon_color=00C9A7&text_color=ffffff" width="47%"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Deepanshu-creater&theme=radical&hide_border=true&background=0F2027&stroke=8E2DE2&ring=00C9A7&fire=8E2DE2">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Deepanshu-creater&theme=default&hide_border=true&stroke=6A11CB&ring=0F766E&fire=B0206E">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Deepanshu-creater&theme=radical&hide_border=true&background=0F2027&stroke=8E2DE2&ring=00C9A7&fire=8E2DE2" width="47%"/>
+</picture>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deepanshu-creater&layout=compact&theme=radical&hide_border=true&bg_color=0F2027&title_color=8E2DE2&text_color=ffffff" width="47%"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Deepanshu-creater&theme=react-dark&hide_border=true&bg_color=0F2027&color=00C9A7&line=8E2DE2&point=ffffff" width="47%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Deepanshu-creater&layout=compact&theme=radical&hide_border=true&bg_color=0F2027&title_color=8E2DE2&text_color=ffffff">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Deepanshu-creater&layout=compact&theme=default&hide_border=true&title_color=6A11CB">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Deepanshu-creater&layout=compact&theme=radical&hide_border=true&bg_color=0F2027&title_color=8E2DE2&text_color=ffffff" width="47%"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Deepanshu-creater&theme=react-dark&hide_border=true&bg_color=0F2027&color=00C9A7&line=8E2DE2&point=ffffff">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Deepanshu-creater&theme=minimal&hide_border=true&color=6A11CB&line=0F766E&point=B0206E">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Deepanshu-creater&theme=react-dark&hide_border=true&bg_color=0F2027&color=00C9A7&line=8E2DE2&point=ffffff" width="47%"/>
+</picture>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Deepanshu-creater&theme=radical&no-frame=true&row=1&column=6&margin-w=8"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Deepanshu-creater&theme=radical&no-frame=true&row=1&column=6&margin-w=8">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=Deepanshu-creater&theme=flat&no-frame=true&row=1&column=6&margin-w=8">
+  <img src="https://github-profile-trophy.vercel.app/?username=Deepanshu-creater&theme=radical&no-frame=true&row=1&column=6&margin-w=8"/>
+</picture>
 
 </div>
 
-<!-- Snake contribution animation -->
+<!-- Snake contribution animation (auto light/dark via workflow output) -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Deepanshu-creater/Deepanshu-creater/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Deepanshu-creater/Deepanshu-creater/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Deepanshu-creater/Deepanshu-creater/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/Deepanshu-creater/Deepanshu-creater/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  </picture>
 </div>
 
 <hr/>
@@ -191,7 +220,11 @@ Real-time messaging with auto language detection + translation. Serving 20+ acti
 <!-- ================= QUOTE & FOOTER ================= -->
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical">
+  <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote"/>
+</picture>
 
 <br/><br/>
 
